@@ -3,11 +3,12 @@
 ## this is a remale of capstone project, methodology as below:
 1.  convert monolith JDBCTemplate to JPA project
 2.  single mysql database with these tables:
-    a. invoice (one to many with invoice item),
-    b. invoice_item (many to one with invoice and one to one with following tables),
-    c. t_shirt
-    d. console
-    e. game
+    a. invoice (one to many with invoice item , one to one with customer),
+    b. customer,
+    c. invoice_item,
+    d. t_shirt,
+    e. console,
+    f. game
 3.  TDD
 
 ## Stages of completion:
